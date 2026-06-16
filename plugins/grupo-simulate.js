@@ -25,10 +25,10 @@ case 'bienvenida':
 act = 'add'
 break
 case 'bye':
-case 'kick':
+case 'снести':
 case 'leave':
 case 'remove':
-case 'sacar':
+case 'удалить':
 act = 'remove'
 break
 case 'promote':
