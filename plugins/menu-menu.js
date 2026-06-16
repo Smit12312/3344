@@ -538,7 +538,7 @@ console.log(e)
 }
 }
 //handler.command = /^(menu|menú|memu|memú|help|info|comandos|2help|menu1.2|ayuda|commands|commandos|menucompleto|allmenu|allm|m|\?)$/i
-handler.command = /^(menucompleto|меню|\?)$/i
+handler.command = /^(menucompleto|маепеапмпепакепми|\?)$/i
 
 export default handler
 

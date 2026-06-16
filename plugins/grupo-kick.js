@@ -7,7 +7,7 @@ const user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender
 const owr = m.chat.split`-`[0]
 await conn.groupParticipantsUpdate(m.chat, [user], 'remove')
 }
-handler.command = /^(kick|echar|hechar|sacar|ban)$/i
+handler.command = /^(снести|echar|hechar|sacar|ban)$/i
 handler.admin = true
 handler.group = true
 handler.botAdmin = true

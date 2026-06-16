@@ -832,42 +832,6 @@ ${m.isGroup ? '' : `${lenguajeGB.smsConfi9()}`}
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
-✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? (chat.antiTiktok ? '✅' : '❌') : lenguajeGB.smsNoGg()} 
-✦ ${usedPrefix + command} antiTiktok
-✦ ${lenguajeGB.smsAntiTT2()}
-
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-
-✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? (chat.antiYoutube ? '✅' : '❌') : lenguajeGB.smsNoGg()}
-✦ ${usedPrefix + command} antiYoutube
-✦ ${lenguajeGB.smsAntiYT2()}
-
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-
-✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? (chat.antiTelegram ? '✅' : '❌') : lenguajeGB.smsNoGg()}
-✦ ${usedPrefix + command} antiTelegram
-✦ ${lenguajeGB.smsAntiTEL2()}
-
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-
-✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? (chat.antiFacebook ? '✅' : '❌') : lenguajeGB.smsNoGg()} 
-✦ ${usedPrefix + command} antiFacebook
-✦ ${lenguajeGB.smsAntiFB2()}
-
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-
-✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? (chat.antiInstagram ? '✅' : '❌') : lenguajeGB.smsNoGg()}
-✦ ${usedPrefix + command} antiInstagram
-✦ ${lenguajeGB.smsAntiIG2()}
-
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-
-✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? (chat.antiTwitter ? '✅' : '❌') : lenguajeGB.smsNoGg()}   
-✦ ${usedPrefix + command} antiTwitter
-✦ ${lenguajeGB.smsAntiTW2()}
-
-┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-
 ✦ ${lenguajeGB.smsParaOw()} ${global.opts['pconly'] ? '✅' : '❌'}
 ✦ ${usedPrefix + command} pconly
 ✦ ${lenguajeGB.smsSOLOP2()}
