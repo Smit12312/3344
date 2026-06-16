@@ -106,7 +106,7 @@ let comando = [
 'приветстви',
 'detect',
 'autolevelup',
-'restrict',
+'ограничить',
 'anticall',
 'antispam',
 'public',
@@ -501,7 +501,7 @@ ${wm}`, //`
       bot.jadibotmd = isEnable
       break
 
-    case 'restrict':
+    case 'ограничить':
     case 'restringir':
       isAll = true
       if (!isOwner) {
@@ -724,7 +724,7 @@ ${m.isGroup ? '' : `${lenguajeGB.smsConfi9()}`}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
 ✦ ${lenguajeGB.smsParaOw()} ${bot.restrict ? '✅' : '❌'}
-✦ ${usedPrefix + command} restrict
+✦ ${usedPrefix + command} ограничить 
 ✦ ${lenguajeGB.smsRestri2()}
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
