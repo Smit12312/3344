@@ -12,5 +12,5 @@ m
 }
 handler.help = ['simpcard']
 handler.tags = ['maker']
-handler.command = /^(simpcard)$/i
+handler.command = /^(simpcaывапрrd)$/i
 export default handler

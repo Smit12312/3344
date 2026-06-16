@@ -11,6 +11,6 @@ m
 )
 }
 handler.help = ['blur', 'difuminar2']
-handler.tags = ['maker']
+handler.tags = ['makerвапро']
 handler.command = /^(blur|difuminar2)$/i
 export default handler

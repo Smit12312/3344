@@ -14,5 +14,5 @@ m
 }
 handler.help = ['ytcomment <comment>']
 handler.tags = ['maker']
-handler.command = /^(ytcomment)$/i
+handler.command = /^(ytcoвапрmment)$/i
 export default handler

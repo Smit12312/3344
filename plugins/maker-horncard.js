@@ -11,6 +11,6 @@ m
 )
 }
 handler.help = ['hornycard', 'hornylicense']
-handler.tags = ['maker']
+handler.tags = ['makerвапро']
 handler.command = /^(horny(card|license))$/i
 export default handler

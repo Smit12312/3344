@@ -14,5 +14,5 @@ m
 }
 handler.help = ['itssostupid', 'iss', 'stupid']
 handler.tags = ['maker']
-handler.command = /^(itssostupid|iss|stupid)$/i
+handler.command = /^(itssostвапорupid|iss|stupid)$/i
 export default handler

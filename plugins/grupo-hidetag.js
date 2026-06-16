@@ -59,7 +59,7 @@ text: `${masss}\n${htextos}\n`,
 }
 }
 
-handler.command = /^(внимание|notificar|notify)$/i
+handler.command = /^(вызов|notificar|notify)$/i
 handler.group = true
 handler.admin = true
 export default handler
