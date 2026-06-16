@@ -103,7 +103,7 @@ lenguajeGB.smsSOLOP2(),
 lenguajeGB.smsSOLOG2()
 ]
 let comando = [
-'welcome',
+'приветстви',
 'detect',
 'autolevelup',
 'restrict',
@@ -122,8 +122,8 @@ let comando = [
 'antiviewonce',
 'antidelete',
 'antifake',
-'antilink',
-'antilink2',
+'антиссылка',
+'антиссылка2',
 'antitiktok',
 'antiyoutube',
 'antitelegram',
@@ -165,7 +165,7 @@ ${wm}`, //`
   let isAll = false,
     isUser = false
   switch (type) {
-    case 'welcome':
+    case 'приветствие':
     case 'bienvenida':
       if (!m.isGroup) {
         if (!isOwner) {
@@ -215,7 +215,7 @@ ${wm}`, //`
       global.opts['self'] = !isEnable
       break
 
-    case 'antilink':
+    case 'антиссылка':
     case 'antienlace':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
@@ -226,7 +226,7 @@ ${wm}`, //`
       chat.antiLink = isEnable
       break
 
-    case 'antilink2':
+    case 'антиссылка2':
     case 'antienlace2':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
@@ -694,7 +694,7 @@ ${m.isGroup ? '' : `${lenguajeGB.smsConfi9()}`}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
 ✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? (chat.welcome ? '✅' : '❌') : lenguajeGB.smsNoGg()}
-✦ ${usedPrefix + command} welcome
+✦ ${usedPrefix + command} приветствие
 ✦ ${lenguajeGB.smsWel2()}
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -844,13 +844,13 @@ ${m.isGroup ? '' : `${lenguajeGB.smsConfi9()}`}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
 ✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? (chat.antiLink ? '✅' : '❌') : lenguajeGB.smsNoGg()}
-✦ ${usedPrefix + command} antiLink
+✦ ${usedPrefix + command} антиссылка
 ✦ ${lenguajeGB.smsAntiE2()}
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 
 ✦ ${lenguajeGB.smsParaAdmins()} ${m.isGroup ? (chat.antiLink2 ? '✅' : '❌') : lenguajeGB.smsNoGg()}
-✦ ${usedPrefix + command} antiLink2
+✦ ${usedPrefix + command} антиссылка2
 ✦ ${lenguajeGB.smsAntiEE2()}
 
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
@@ -924,7 +924,7 @@ fkontak,
 }
 handler.help = ['en', 'dis'].map((v) => v + 'able <option>')
 handler.tags = ['group', 'owner']
-handler.command = /^((en|dis)able|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
+handler.command = /^((вк|вык)лючить|(tru|fals)e|(turn)?o(n|ff)|[01])$/i
 export default handler
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
