@@ -8,7 +8,7 @@ comment: text,
 username: conn.getName(m.sender)
 }),
 'error.png',
-'🌀 *AQUÍ ESTA LA IMAGEN PIXELADA!!*\n𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 | 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨',
+'🌀 *AQUÍ ESTA LA IMAGEN PIXELADA!!*\nВанилька | Ванилька',
 m
 )
 }

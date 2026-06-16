@@ -1,4 +1,4 @@
-// Código elaborado por GataNina-Li (Gata Dios)
+// Código elaborado por GataNina-Li (Ванилька)
 
 /*let { downloadContentFromMessage } = (await import(global.baileys))
 import uploadImage from '../lib/uploadImage.js'
