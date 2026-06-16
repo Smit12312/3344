@@ -97,7 +97,7 @@ sourceUrl: redesMenu
 }
 
 let str = `
-╭┄〔 *${wm}* 〕┄⊱
+╭┄〔 *$Ванилька* 〕┄⊱
 ┊ *🎶 ${lenguajeGB['smsConfi2']()} ${username}*
 ┊დ *${week}, ${date}*
 ╭┄┄┄┄┄〔 *𓃠 МЕНЮ* 〕┄┄┄┄⊱* 
@@ -112,15 +112,7 @@ let str = `
 ┊დ **
 ┊დ **
 ╰┄┄┄┄〔 *𓃠 ${vs}* 〕┄┄┄┄⊱
-
-╭════• ೋ•✧๑♡๑✧•ೋ •════╮
-⠇ *${lenguajeGB['smsTex16']()}* 
-⠇ ${lenguajeGB['smsTex17']()}
-
-
-╭════• ೋ•✧๑♡๑✧•ೋ •════╮
-
-╰════• ೋ•✧๑♡๑✧•ೋ •════╯`.trim()
+`.trim()
 conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, {contextInfo: {mentionedJid}})
 /*let menuA = `🎶 ${lenguajeGB['smsConfi2']()} *${username}*`.trim()
 let menuB = `
