@@ -137,7 +137,7 @@ ${wm}`, //`
     buttonText: `⚙️ ${lenguajeGB.smsConfi1()} ⚙️`,
     sections
   }
-  let isEnable = /true|enable|(turn)?on|1/i.test(command)
+  let isEnable = /true|включить|(turn)?on|1/i.test(command)
   let type = (args[0] || '').toLowerCase()
   let isAll = false,
     isUser = false
