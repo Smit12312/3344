@@ -1851,10 +1851,10 @@ externalAdReply: {
 showAdAttribution: true,
 renderLargerThumbnail: true,
 thumbnail: apii.data,
-title: [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', '🌟 centergatabot.gmail.com'].getRandom(),
+title: [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', '🌟 Ванилька'].getRandom(),
 containsAutoReply: true,
 mediaType: 1,
-sourceUrl: 'https://github.com/GataNina-Li/GataBot-MD'
+sourceUrl: 'https://github.com'
 }
 }
 },
@@ -1970,7 +1970,7 @@ text: msg,
 contextInfo: {
 externalAdReply: {
 title: lenguajeGB.smsAvisoAG().slice(0, -2),
-body: [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', '🌟 centergatabot.gmail.com'].getRandom(),
+body: [wm, '😻 𝗦𝘂𝗽𝗲𝗿 ' + gt + ' 😻', '🌟 Ванилька'].getRandom(),
 thumbnail: gataImg,
 sourceUrl: accountsgb
 }
